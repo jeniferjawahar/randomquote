@@ -1,0 +1,160 @@
+.socialmediabutton {
+  width: 3em;
+  height: 3em;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+
+
+}
+
+.icon {
+
+
+
+  width: 1.5em;
+  height: 1.5em;
+  margin: 0 auto;
+
+}
+
+
+.socialmediabutton:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.color0 {
+  background-color: blueviolet;
+  color: white
+}
+
+.color0 p {
+  color: blueviolet;
+  background-color: white;
+}
+
+
+.color1 {
+  background-color: peru;
+  color: white
+}
+
+.color1 p {
+  color: peru;
+  background-color: white;
+}
+
+.color2 {
+  background-color: crimson;
+  color: white
+}
+
+.color2 p {
+  color: crimson;
+  background-color: white;
+}
+
+.color3 {
+  background-color: magenta;
+  color: white
+}
+
+.color3 p {
+  color: magenta;
+  background-color: white;
+}
+
+.color4 {
+  background-color: maroon;
+  color: white
+}
+
+.color4 p {
+  color: maroon;
+  background-color: white;
+}
+
+.color5 {
+  background-color: purple;
+  color: white;
+
+}
+
+.color5 p {
+  color: purple;
+  background-color: white;
+}
+
+
+.color6 {
+  background-color: brown;
+  color: white
+}
+
+.color6 p {
+  color: brown;
+  background-color: white;
+}
+
+.color7 {
+  background-color: red;
+  color: white;
+
+
+}
+
+.color7 p {
+  color: red;
+  background-color: white;
+}
+
+
+.color8 {
+  background-color: cornflowerblue;
+  color: white;
+
+}
+
+.color8 p {
+  color: cornflowerblue;
+  background-color: white;
+}
+
+
+.color9 {
+  background-color: green;
+  color: white;
+
+}
+
+.color9 p {
+  color: green;
+  background-color: white;
+}
+
+.color10 {
+  background-color: burlywood;
+  color: white;
+
+}
+
+.color10 p {
+  color: burlywood;
+  background-color: white;
+}
+
+
+.color11 {
+  background-color: tomato;
+  color: white;
+
+}
+
+.color11 p {
+  color: tomato;
+  background-color: white;
+}
