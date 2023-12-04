@@ -18,7 +18,7 @@ jobs:
       - name: Install project dependencies
         run: npm install
       - name: Build the React application
-        run: PUBLIC_URL=randomquote npm run build
+        run: PUBLIC_URL=https://jenifer.s3.ap-south-1.amazonaws.com/randomquote npm run build
       - uses: jakejarvis/s3-sync-action@master
         with:
           args: --acl public-read --follow-symlinks --delete
