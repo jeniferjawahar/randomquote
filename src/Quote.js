@@ -51,10 +51,12 @@ export default function Quote() {
     <>
       <div className={`${colors[random]} wrapper-box`} id="quote-box">
         <div className="content-box">
-          <p className={`${colors[random]} quoteText `}>
+          <p className={`${colors[random]} quoteText `} id="text">
             <FaQuoteLeft /> {" " + quote.content}
           </p>
-          <p className={`${colors[random]} authorText `}>-{quote.author}</p>
+          <p className={`${colors[random]} authorText `} id="author">
+            -{quote.author}
+          </p>
 
           <div className="buttons">
             <a
@@ -62,6 +64,7 @@ export default function Quote() {
               href={`http://twitter.com/share?text=${quote.content} goes here&hashtags=quote,positive,motivation`}
               target="_blank"
               rel="noreferrer"
+              id="tweet-quote"
             >
               <FaTwitter className="icon" />
             </a>
@@ -77,7 +80,7 @@ export default function Quote() {
             <button
               onClick={handleClick}
               className={`${colors[random]} button`}
-              id="item3"
+              id="new-quote"
             >
               New Quote
             </button>

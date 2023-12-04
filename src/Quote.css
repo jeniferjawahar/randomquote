@@ -1,3 +1,64 @@
+.wrapper-box {
+  height: 100vh;
+  transition: background-color 1s ease-out;
+}
+
+.content-box {
+  background-color: white;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+
+}
+
+.quoteText {
+  font-size: 1.75em;
+  font-weight: 500;
+
+
+}
+
+.authorText {
+  font-weight: 1.5em;
+  font-size: medium;
+  text-align: right;
+
+}
+
+.button {
+  width: 100px;
+  height: 50px;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: none;
+  font-weight: bold;
+}
+
+.button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+#new-quote {
+  margin-left: auto;
+}
+
+
 .socialmediabutton {
   width: 3em;
   height: 3em;
@@ -7,18 +68,12 @@
   cursor: pointer;
   display: flex;
   align-items: center;
-
-
 }
 
 .icon {
-
-
-
   width: 1.5em;
   height: 1.5em;
   margin: 0 auto;
-
 }
 
 
@@ -28,53 +83,53 @@
 }
 
 .color0 {
-  background-color: blueviolet;
+  background-color: crimson;
   color: white
 }
 
 .color0 p {
-  color: blueviolet;
+  color: crimson;
   background-color: white;
 }
 
 
 .color1 {
-  background-color: peru;
+  background-color: saddlebrown;
   color: white
 }
 
 .color1 p {
-  color: peru;
+  color: saddlebrown;
   background-color: white;
 }
 
 .color2 {
-  background-color: crimson;
+  background-color: teal;
   color: white
 }
 
 .color2 p {
-  color: crimson;
+  color: Teal;
   background-color: white;
 }
 
 .color3 {
-  background-color: magenta;
+  background-color: darkslategray;
   color: white
 }
 
 .color3 p {
-  color: magenta;
+  color: darkslategray;
   background-color: white;
 }
 
 .color4 {
-  background-color: maroon;
+  background-color: black;
   color: white
 }
 
 .color4 p {
-  color: maroon;
+  color: black;
   background-color: white;
 }
 
@@ -101,26 +156,26 @@
 }
 
 .color7 {
-  background-color: red;
+  background-color: navy;
   color: white;
 
 
 }
 
 .color7 p {
-  color: red;
+  color: Navy;
   background-color: white;
 }
 
 
 .color8 {
-  background-color: cornflowerblue;
+  background-color: indigo;
   color: white;
 
 }
 
 .color8 p {
-  color: cornflowerblue;
+  color: indigo;
   background-color: white;
 }
 
@@ -137,13 +192,13 @@
 }
 
 .color10 {
-  background-color: burlywood;
+  background-color: olive;
   color: white;
 
 }
 
 .color10 p {
-  color: burlywood;
+  color: olive;
   background-color: white;
 }
 
